@@ -173,6 +173,25 @@ p {
   background: var(--gold-light);
 }
 
+.nav-phone {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--parchment);
+  white-space: nowrap;
+  transition: color var(--transition);
+}
+
+.nav-phone:hover {
+  color: var(--gold);
+}
+
+.nav-phone svg {
+  color: var(--gold);
+}
+
 .nav-hamburger {
   background: none;
   border: none;
@@ -235,6 +254,7 @@ p {
 @media (min-width: 768px) {
   .nav-links { display: flex; }
   .nav-order-btn { display: inline-block; }
+  .nav-phone { display: inline-flex; }
   .nav-hamburger { display: none; }
 }
 
