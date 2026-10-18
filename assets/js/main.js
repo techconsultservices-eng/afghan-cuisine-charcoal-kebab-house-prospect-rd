@@ -3,6 +3,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   initNav();
   initHero();
+  initMobileOrderBar();
 });
 
 /* ─── Navigation ─── */
@@ -56,6 +57,42 @@ function initNav() {
       a.classList.add('active');
     }
   });
+}
+
+/* ─── Persistent mobile order actions ─── */
+function initMobileOrderBar() {
+  if (document.querySelector('.mobile-order-bar')) return;
+
+  const phoneLink = document.querySelector('.nav-phone') || document.querySelector('a[href^="tel:"]');
+  const phoneHref = phoneLink?.getAttribute('href') || 'tel:+61882626574';
+  const phoneNumber = phoneLink?.querySelector('.nav-phone-number')?.textContent.trim() || '(08) 8262 6574';
+  const bar = document.createElement('nav');
+  bar.className = 'mobile-order-bar';
+  bar.setAttribute('aria-label', 'Quick order options');
+
+  const delivery = document.createElement('a');
+  delivery.className = 'mobile-order-delivery';
+  delivery.href = 'https://www.ubereats.com/au/store/afghan-cuisine-and-charcoal-kebab-house/RWX0s6DjTACkVv3nphXjUA';
+  delivery.target = '_blank';
+  delivery.rel = 'noopener noreferrer';
+  const deliveryLabel = document.createElement('span');
+  deliveryLabel.textContent = 'DELIVERY';
+  const deliveryName = document.createElement('strong');
+  deliveryName.textContent = 'Uber Eats';
+  delivery.append(deliveryLabel, deliveryName);
+
+  const pickup = document.createElement('a');
+  pickup.className = 'mobile-order-pickup';
+  pickup.href = phoneHref;
+  pickup.setAttribute('aria-label', `Call to order pickup, ${phoneNumber}`);
+  const pickupLabel = document.createElement('span');
+  pickupLabel.textContent = 'CALL TO ORDER PICKUP';
+  const pickupNumber = document.createElement('strong');
+  pickupNumber.textContent = phoneNumber;
+  pickup.append(pickupLabel, pickupNumber);
+
+  bar.append(delivery, pickup);
+  document.body.append(bar);
 }
 
 /* ─── Hero subtle animation ─── */
