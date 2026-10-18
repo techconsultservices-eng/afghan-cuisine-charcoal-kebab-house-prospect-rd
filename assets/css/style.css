@@ -535,8 +535,38 @@ p {
   font-size: 0.825rem;
   color: var(--parchment-dim);
   line-height: 1.55;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
   max-width: none;
+}
+
+.dish-card-desc.is-collapsed {
+  max-height: 6.2em;
+  overflow: hidden;
+}
+
+.dish-card-desc.is-expanded {
+  max-height: none;
+}
+
+.dish-card-more {
+  align-self: flex-start;
+  margin: 0 0 12px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--gold);
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.dish-card-more:hover,
+.dish-card-more:focus-visible {
+  text-decoration: underline;
+}
+
+.dish-card-more[hidden] {
+  display: none;
 }
 
 .dish-card-price {

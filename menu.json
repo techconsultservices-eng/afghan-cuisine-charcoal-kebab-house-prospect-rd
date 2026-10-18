@@ -1,164 +1,314 @@
 {
-  "categories": ["Featured", "Sides", "Extras", "Desserts"],
+  "categories": [
+    "Featured",
+    "Appetizer",
+    "Mains",
+    "Wraps",
+    "Combos",
+    "Beverages",
+    "Desserts"
+  ],
+  "featured": [
+    "3 Lamb Skewers",
+    "Manto Meal",
+    "Kabuly Pulao Rice",
+    "Chicken Biryani",
+    "3 Lamb Mince Skewers"
+  ],
   "items": [
     {
-      "name": "Mixed Skewers",
-      "category": "Featured",
-      "price": "$35",
-      "description": "A generous selection of our signature charcoal-grilled skewers — chicken, lamb and mince — served with Afghan bread and sauces.",
-      "image": "assets/images/menu/mixed-skewers.jpg"
+      "name": "Bolani",
+      "category": "Appetizer",
+      "price": "$6.00",
+      "description": "Experience a delicious twist on traditional pastries with our savory pan-fried leek turnovers. Made with a flaky crust and filled with flavorful leeks, these turnovers are a perfect appetizer or snack. Served with a cool and creamy yogurt dip, every bite is a delightful combination of textures and flavors. Whether you're a fan of Middle Eastern cuisine or just looking to try something new, our leek turnovers are a must-try at Afghan Cuisine and Charcoal Kebab House!",
+      "image": ""
     },
     {
-      "name": "Chicken Skewers",
-      "category": "Featured",
-      "price": "$35",
-      "description": "Tender chicken marinated in traditional Afghan spices, grilled over real charcoal for deep smoky flavour.",
-      "image": "assets/images/menu/chicken-skewers.jpg"
-    },
-    {
-      "name": "BBQ Chicken",
-      "category": "Featured",
-      "price": "$28",
-      "description": "Whole BBQ chicken cooked over charcoal, crisp on the outside, juicy within. A family favourite.",
-      "image": "assets/images/menu/bbq-chicken.jpg"
-    },
-    {
-      "name": "Lamb Skewers",
-      "category": "Featured",
-      "price": "$36",
-      "description": "Premium lamb cuts seasoned with Afghan herbs and charcoal-grilled to perfection. Rich, savoury and deeply satisfying.",
-      "image": "assets/images/menu/lamb-skewers.jpg"
-    },
-    {
-      "name": "Kabuli Pulao",
-      "category": "Featured",
-      "price": "$32",
-      "description": "Afghanistan's national dish. Slow-cooked basmati rice with tender lamb, caramelised carrots and raisins. A celebration in a bowl.",
-      "image": "assets/images/menu/kabuli-pulao.jpg"
+      "name": "Eggplant",
+      "category": "Appetizer",
+      "price": "$18.00",
+      "description": "This flavorful dish features slices of fresh eggplant that are pan fried to a crispy golden brown and topped with a creamy and tangy yoghurt sauce. Served with warm bread on the side, it's the perfect combination of crispy and soft textures, and a harmony of savory and tangy flavors. This vegetarian dish is a great choice for those looking for a delicious and healthy option.",
+      "image": ""
     },
     {
       "name": "Manto Meal",
-      "category": "Featured",
-      "price": "$25",
-      "description": "Handmade Afghan dumplings filled with spiced minced beef, served with yoghurt and a rich tomato-based sauce.",
+      "category": "Appetizer",
+      "price": "$18.00",
+      "description": "Steamed dumplings filled with savory onion and tender lamb mince, delicately spiced to perfection. Topped with a creamy and garlicky yogurt sauce, and served with a flavorful daal to complement the flavors. This dish is a perfect fusion of textures and tastes, sure to leave you satisfied and wanting more.",
       "image": "assets/images/menu/manto.jpg"
     },
     {
-      "name": "Biryani Meal",
-      "category": "Featured",
-      "price": "$28",
-      "description": "Aromatic long-grain rice layered with slow-cooked meat, saffron and fragrant spices. A complete, hearty meal.",
+      "name": "Chips",
+      "category": "Appetizer",
+      "price": "$7.00",
+      "description": "Golden crispy fries served hot and salted to perfection. Perfect as a side or a snack!",
+      "image": ""
+    },
+    {
+      "name": "BBQ Chicken",
+      "category": "Mains",
+      "price": "$24.00",
+      "description": "Indulge in our mouth-watering 1/2 charcoal-grilled BBQ chicken, served with a generous portion of fragrant kabuli rice or kuboos bread and a fresh salad bursting with flavor. Our signature dish is accompanied by a side of creamy yogurt and a spicy sauce that perfectly complements the tender and juicy chicken. Grilled to perfection over an open flame, this dish is sure to tantalize your taste buds and leave you wanting more. Come experience the authentic flavors of Afghanistan at our restaurant today!",
+      "image": "assets/images/menu/bbq-chicken.jpg"
+    },
+    {
+      "name": "Okra Curry",
+      "category": "Mains",
+      "price": "$18.00",
+      "description": "Savor the rich and aromatic flavors of our Okra Curry, a vegetarian delight that's sure to impress your taste buds. Made with fresh and tender okra, cooked to perfection in a flavorful blend of herbs and spices, this dish is the perfect balance of savory and spicy. Served with warm bread and a fresh salad, this dish is a complete meal that's both satisfying and wholesome. For an extra burst of flavor, we offer a side of creamy yogurt and a spicy sauce that's the perfect accompaniment to this delicious curry. Come try this classic Afghan dish and take your taste buds on a culinary journey to Afghanistan!",
+      "image": ""
+    },
+    {
+      "name": "Chicken Biryani",
+      "category": "Mains",
+      "price": "$25.00",
+      "description": "Indulge in the aromatic and flavorful Chicken Biryani! Made with tender, marinated chicken cooked with fragrant basmati rice and a blend of traditional spices, this dish is served with a side salad to balance out the richness. Dip your biryani in a cool and creamy yogurt dip, and drizzle some spicy and tangy sauce for an extra kick. A perfect meal that satisfies your cravings for bold and authentic flavors!",
       "image": "assets/images/menu/biryani.jpg"
     },
     {
-      "name": "Lamb Minced Skewers",
-      "category": "Featured",
-      "price": "$35",
-      "description": "Seasoned ground lamb formed around skewers and charcoal-grilled. Juicy, smoky and full of flavour.",
+      "name": "Kabuly Pulao Rice",
+      "category": "Mains",
+      "price": "$22.00",
+      "description": "Savor the rich, aromatic flavors of Afghanistan with our signature Kabuli Pulao! Tender lamb slow-cooked to perfection is layered with fragrant basmati rice and topped with caramelized carrots and raisins for a perfect balance of sweet and savory. Served with a side of crisp salad, cool yogurt, and our spicy tangy sauce, this dish is sure to transport you to the bustling streets of Kabul.",
+      "image": "assets/images/menu/kabuli-pulao.jpg"
+    },
+    {
+      "name": "Green Beans Curry",
+      "category": "Mains",
+      "price": "$18.00",
+      "description": "Enjoy the rich flavors of our green beans and potato curry, made with fresh vegetables and traditional spices. Served with your choice of rice or bread, this dish is accompanied by a crisp salad, cool yogurt, and our signature spicy tangy sauce. Perfect for vegetarians and meat-eaters alike, our curry is a delicious and satisfying meal that will leave you feeling nourished and satisfied.",
+      "image": ""
+    },
+    {
+      "name": "3 Lamb Skewers",
+      "category": "Mains",
+      "price": "$32.00",
+      "description": "Indulge in the succulent and flavorful charcoal grilled lamb skewers, perfect for meat lovers! Served with a generous portion of fragrant Kabuli rice and a crisp garden salad on the side, this dish is a feast for both the eyes and the palate. The juicy lamb pieces are threaded onto skewers and grilled to perfection over charcoal, infusing them with a smoky aroma and rich flavor. To balance the dish, we offer a side of tangy yogurt and a spicy sauce that adds a delicious kick. Savor every bite and treat your taste buds to an explosion of flavors!",
+      "image": "assets/images/menu/lamb-skewers.jpg"
+    },
+    {
+      "name": "3 Mixed Skewers",
+      "category": "Mains",
+      "price": "$30.00",
+      "description": "Indulge in the exotic flavors of our mixed grill skewers featuring succulent chicken, juicy lamb, and flavorful lamb mince. Charcoal-grilled to perfection, these skewers are served with your choice of rice or bread, accompanied by a fresh salad, cool and creamy yogurt, and a spicy tangy sauce that will tantalize your taste buds. Experience the perfect blend of spices and textures with every bite of this mouth-watering dish.",
+      "image": "assets/images/menu/mixed-skewers.jpg"
+    },
+    {
+      "name": "3 Chicken Skewers",
+      "category": "Mains",
+      "price": "$30.00",
+      "description": "Three juicy chicken skewers grilled to perfection, served with your choice of fluffy rice or fresh bread, a crisp and refreshing side salad, and our signature yoghurt and spicy tangy sauce. Perfect for a hearty and healthy meal on the go or as a delicious addition to your dinner table.",
+      "image": "assets/images/menu/chicken-skewers.jpg"
+    },
+    {
+      "name": "3 Lamb Mince Skewers",
+      "category": "Mains",
+      "price": "$30.00",
+      "description": "Our juicy and flavorful lamb mince skewers are the perfect choice for meat lovers. Made with the finest cuts of lamb, seasoned to perfection, and cooked over charcoal, these skewers are served with your choice of rice or bread, a side salad, and a dollop of refreshing yogurt. Add some heat to your meal with our spicy and tangy sauce, which perfectly complements the rich and savory flavors of the lamb. Come in and savor the taste of our delicious lamb mince skewers today!",
       "image": "assets/images/menu/lamb-minced-skewers.jpg"
     },
     {
-      "name": "Chips",
-      "category": "Sides",
-      "price": "$7",
-      "description": "Golden crispy chips, perfectly seasoned.",
+      "name": "Any 2 Skewers",
+      "category": "Mains",
+      "price": "$24.00",
+      "description": "Indulge in our delicious skewers with a choice of two from lamb, chicken, or lamb mince, grilled to perfection over charcoal. Served with a side of fragrant rice or bread, fresh salad, and creamy yogurt. Dip each succulent bite into our spicy tangy sauce for an extra burst of flavor. A perfect meal for those who crave both variety and taste.",
       "image": ""
     },
     {
-      "name": "Dal",
-      "category": "Sides",
-      "price": "$18",
-      "description": "Traditional Afghan lentil curry, slow-cooked with aromatic spices. Warming and nourishing.",
+      "name": "Lamb Curry",
+      "category": "Mains",
+      "price": "$25.00",
+      "description": "Savor the rich flavor of our tender, diced lamb curry. Made with a blend of aromatic spices, juicy tomatoes, and our signature masala, this dish is sure to satisfy your cravings. Served with your choice of rice or bread, a side salad, and a dollop of creamy yogurt, it's the perfect balance of hearty and healthy. Add a kick of heat with our spicy tangy sauce and elevate your taste buds to a whole new level. Come and enjoy a taste of Afghanistan!",
       "image": ""
     },
     {
-      "name": "Chole",
-      "category": "Sides",
-      "price": "$18",
-      "description": "Hearty chickpea curry simmered with tomato, ginger and Afghan spices.",
+      "name": "Chicken Karahi",
+      "category": "Mains",
+      "price": "$25.00",
+      "description": "Indulge in the rich flavors of our Chicken Karahi, made with tender chicken thighs cooked in a delicious tomato and masala gravy. Served with your choice of rice or bread, this savory dish is sure to satisfy your cravings. Whether you prefer to pair it with fluffy rice or soft bread, each bite will be bursting with bold and aromatic spices. Come try our Chicken Karahi today and experience the taste of authentic cuisine.",
       "image": ""
     },
     {
-      "name": "Chicken Nuggets",
-      "category": "Sides",
-      "price": "$13",
-      "description": "Crispy golden nuggets, great for the kids or as a snack.",
+      "name": "Chicken Curry",
+      "category": "Mains",
+      "price": "$25.00",
+      "description": "Enjoy our delicious chicken curry, made with tender chicken thighs cooked in a rich tomato and masala sauce. Served with your choice of fluffy rice or fresh bread, this dish is perfect for any meal. Our chefs carefully select the finest ingredients to create a flavor that's sure to please. Come and savor the taste of our authentic Indian cuisine today!",
       "image": ""
     },
     {
-      "name": "Chicken Strips",
-      "category": "Sides",
-      "price": "$13",
-      "description": "Tender chicken strips, lightly seasoned and golden-fried.",
+      "name": "Lamb Meatballs",
+      "category": "Mains",
+      "price": "$25.00",
+      "description": "Enjoy the savory flavors of our crispy fried lamb mince meatballs served with a tangy tomato sauce and sautéed onions. Served with your choice of rice or bread, our meatballs are perfectly seasoned and bursting with delicious spices. Accompanied by a side of cool yogurt and our spicy tangy sauce, this dish is sure to satisfy your cravings.",
       "image": ""
     },
     {
-      "name": "Popcorn Plus Chips",
-      "category": "Sides",
-      "price": "$13",
-      "description": "Popcorn chicken with chips — a satisfying combo.",
+      "name": "Family Meal",
+      "category": "Mains",
+      "price": "$200.00",
+      "description": "Indulge in our delicious mixed kebab platter, perfect for a gathering of 8 people. The platter features 16 succulent skewers of chicken, lamb, and lamb mince kebab, served with fragrant and fluffy rice. In addition, you'll receive 5 freshly baked kuboos bread, a vibrant salad, and our house-made yoghurt and spicy tangy sauce to elevate your kebab experience. To quench your thirst, we're including 8 cans of your choice of refreshing drinks. It's a complete and satisfying meal that will satisfy your hunger and taste buds.",
       "image": ""
     },
     {
-      "name": "Garlic Sauce Large",
-      "category": "Sides",
-      "price": "$5",
-      "description": "House-made creamy garlic sauce. The perfect companion to any kebab.",
+      "name": "1 Lamb Skewer",
+      "category": "Wraps",
+      "price": "$13.00",
+      "description": "Juicy, tender lamb skewer, grilled to perfection and wrapped in a soft and fluffy kuboos bread. Served with fresh and crispy salad and a generous dollop of creamy yogurt, this dish is the perfect balance of flavors and textures. The spicy tangy sauce adds a delightful kick that will leave your taste buds craving for more. A great choice for a quick and satisfying meal on the go!",
       "image": ""
     },
     {
-      "name": "Chilli Sauce Large",
-      "category": "Sides",
-      "price": "$5",
-      "description": "House-made chilli sauce with a proper kick.",
+      "name": "2 Lamb Skewer",
+      "category": "Wraps",
+      "price": "$17.00",
+      "description": "2 Juicy, tender lamb skewer, grilled to perfection and wrapped in a soft and fluffy kuboos bread. Served with fresh and crispy salad and a generous dollop of creamy yogurt, this dish is the perfect balance of flavors and textures. The spicy tangy sauce adds a delightful kick that will leave your taste buds craving for more. A great choice for a quick and satisfying meal on the go!",
       "image": ""
     },
     {
-      "name": "Bread",
-      "category": "Extras",
-      "price": "$3",
-      "description": "Freshly baked Afghan-style bread, straight from our oven.",
+      "name": "1 Lamb Mince Skewer",
+      "category": "Wraps",
+      "price": "$13.00",
+      "description": "Our delicious lamb mince skewer wrap features a juicy skewer of seasoned lamb mince, wrapped in warm kuboos bread and served with a generous portion of fresh salad. Drizzled with a tangy yogurt sauce and a spicy sauce for an extra kick, this wrap is a perfect meal on-the-go or a quick lunch option.",
       "image": ""
     },
     {
-      "name": "Chicken",
-      "category": "Extras",
-      "price": "$10",
-      "description": "Add charcoal-grilled chicken to any meal.",
+      "name": "2 Lamb Mince Skewer",
+      "category": "Wraps",
+      "price": "$13.00",
+      "description": "Our delicious lamb mince skewer wrap features two juicy lamb mince skewers wrapped in warm and soft kuboos bread, served with fresh salad and a side of creamy yogurt and tangy spicy sauce. The succulent lamb mince is delicately spiced and perfectly grilled to give it a smoky flavor that pairs beautifully with the crisp salad and the tangy sauce. This wrap is a perfect meal for those who love bold and flavorful meat dishes, and it's sure to satisfy your hunger and your taste buds.",
       "image": ""
     },
     {
-      "name": "Lamb",
-      "category": "Extras",
-      "price": "$10",
-      "description": "Add charcoal-grilled lamb to any meal.",
+      "name": "1 Chicken Skewers",
+      "category": "Wraps",
+      "price": "$13.00",
+      "description": "Tender chunks of marinated chicken threaded onto a skewer, grilled to perfection and wrapped in a fluffy kuboos bread. Served with a crisp salad of fresh greens and sliced vegetables, as well as a cool and creamy yogurt sauce with a hint of spice. The zesty tangy sauce adds a kick of heat and depth of flavor to the juicy chicken. Perfect for a quick and satisfying meal on the go or a flavorful lunch option.",
       "image": ""
     },
     {
-      "name": "Mince",
-      "category": "Extras",
-      "price": "$10",
-      "description": "Add charcoal-grilled mince to any meal.",
+      "name": "2 Chicken Skewers",
+      "category": "Wraps",
+      "price": "$17.00",
+      "description": "Enjoy the savory flavor of our juicy grilled chicken skewers wrapped in warm kuboos bread with crisp salad greens. Savor the cool, tangy taste of creamy yogurt sauce with just the right amount of spice to tingle your taste buds. Perfectly paired with our zesty and flavorful spicy tangy sauce, this wrap is the perfect blend of flavors and textures. Ideal for a quick and satisfying meal on the go or a delicious lunch with friends.",
+      "image": ""
+    },
+    {
+      "name": "Daal Mash",
+      "category": "Wraps",
+      "price": "$18.00",
+      "description": "Delicious daal mash served with rice or bread ,salad and sauces",
+      "image": ""
+    },
+    {
+      "name": "Chole Chickpeas",
+      "category": "Wraps",
+      "price": "$18.00",
+      "description": "Cooked rice mixed yummy chickpeas served with salad and sauces",
+      "image": ""
+    },
+    {
+      "name": "1 Lamb Skewer Wrap W/ 375 Ml Can Variety",
+      "category": "Combos",
+      "price": "$15.00",
+      "description": "Introducing our tasty combo meal! Enjoy a succulent lamb skewer wrapped in soft kuboos bread, topped with fresh salad and a drizzle of cool yogurt and spicy tangy sauce. Complemented perfectly with a 375 ml can of your choice of refreshing soft drink. Perfect for those looking for a delicious and satisfying meal on the go!",
+      "image": ""
+    },
+    {
+      "name": "BBQ Chicken W/ 375 Ml Can Variety",
+      "category": "Combos",
+      "price": "$27.00",
+      "description": "Indulge in the ultimate BBQ feast with our Combo Meal! Enjoy half a succulent charcoal-grilled BBQ chicken, served with fluffy and fragrant Kabuli rice, fresh salad, and a side of cooling yogurt and spicy sauce. And to top it all off, quench your thirst with a 375 ml can of your favorite drink variety. Perfect for a satisfying meal that will leave you feeling full and content.",
+      "image": ""
+    },
+    {
+      "name": "Chicken Curry W/ 375 Ml Can Variety",
+      "category": "Combos",
+      "price": "$27.00",
+      "description": "Indulge in a delicious combo of Chicken Curry made with succulent chicken thighs, simmered in a rich tomato and masala sauce. Served with a choice of steaming rice or fluffy bread, along with a side salad and a cooling dollop of yogurt. For those seeking a bit of extra kick, a zesty spicy tangy sauce is the perfect accompaniment to the dish. To complete your meal, we also offer a 375 ml can variety. Experience the perfect blend of flavor and convenience with this Chicken Curry combo.",
+      "image": ""
+    },
+    {
+      "name": "Lamb Curry W/ 375 Ml Can Variety",
+      "category": "Combos",
+      "price": "$27.00",
+      "description": "Indulge in our flavorful lamb curry made with succulent diced lamb pieces, aromatic tomato and masala sauce, served with your choice of rice or bread. Accompanied with a crisp and refreshing salad, a dollop of cooling yoghurt and a spicy tangy sauce to tantalize your taste buds. And to top it off, quench your thirst with a 375 ml can of your favorite soft drink. A perfect meal combo for lamb curry lovers!",
+      "image": ""
+    },
+    {
+      "name": "3 Mixed Skewers W/ 375 Ml Can Variety",
+      "category": "Combos",
+      "price": "$32.00",
+      "description": "Introducing our delicious skewer combo, perfect for those who love variety! This combo includes any three of our succulent skewers, whether you prefer tender lamb, juicy chicken or flavourful lamb mince. Served with your choice of rice or bread, fresh salad and our signature yoghurt and spicy tangy sauce, this meal is sure to satisfy your cravings. To quench your thirst, the combo also includes a 375 ml can of your favourite drink. Come try our skewer combo and experience a delicious taste of Afghanistan!",
+      "image": ""
+    },
+    {
+      "name": "Dogh(Glass)",
+      "category": "Beverages",
+      "price": "$3.50",
+      "description": "Our refreshing dogh drink is the perfect accompaniment to any meal. Made with creamy yogurt, fresh mint, and a touch of salt, it's a cooling and tangy delight for your taste buds. Served in a tall glass, it's the perfect way to quench your thirst on a hot day.",
+      "image": ""
+    },
+    {
+      "name": "Dogh (Jug)",
+      "category": "Beverages",
+      "price": "$12.00",
+      "description": "Our refreshing Dogh drink is now available in a jug, perfect for sharing with friends and family! Made with creamy yoghurt, blended with mint, cucumber, and our secret spice blend, this traditional drink is a must-try. The large jug size makes it a great choice for parties and gatherings, and it's sure to keep everyone cool and hydrated. Come in and try our jug of Dogh today!",
+      "image": ""
+    },
+    {
+      "name": "Afghani Tea (Cup)",
+      "category": "Beverages",
+      "price": "$2.00",
+      "description": "Experience the rich and authentic taste of Afghanistan with our traditional Afghani tea, made with a special blend of black tea leaves and fragrant cardamom. Served in a cup for a quick and satisfying pick-me-up.",
+      "image": ""
+    },
+    {
+      "name": "Afghani Tea (Pot)",
+      "category": "Beverages",
+      "price": "$6.00",
+      "description": "Bring a taste of Afghanistan to your table with our Afghani tea, served in a traditional pot for an authentic experience. Our special blend of black tea leaves and fragrant cardamom is perfect for sharing with friends and family over a leisurely afternoon.",
+      "image": ""
+    },
+    {
+      "name": "Soda Can Varieties",
+      "category": "Beverages",
+      "price": "$3.00",
+      "description": "Soda Varieties from (Coke, Coke No Sugar, Pepsi, Sprite, Schweppes Lemonade, Solo, Fanta Orange, Mountain Dew)",
+      "image": ""
+    },
+    {
+      "name": "Bottled Spring Water",
+      "category": "Beverages",
+      "price": "$3.00",
+      "description": "",
+      "image": ""
+    },
+    {
+      "name": "600 ML Bottled Drinks Varieties",
+      "category": "Beverages",
+      "price": "$4.50",
+      "description": "Pepsi, Pepsi Max, Coke, Coke No Sugar",
+      "image": ""
+    },
+    {
+      "name": "1.25L Bottled Soda",
+      "category": "Beverages",
+      "price": "$6.00",
+      "description": "Coke, Coke No Sugar",
       "image": ""
     },
     {
       "name": "Baklava",
       "category": "Desserts",
-      "price": "Price TBC",
-      "description": "Flaky pastry layered with crushed nuts and sweetened with honey syrup. A classic Afghan sweet.",
+      "price": "$3.00",
+      "description": "Discount applicable for buying in wieght.",
       "image": ""
     },
     {
       "name": "Jalebi",
       "category": "Desserts",
-      "price": "Price TBC",
-      "description": "Crispy spiral sweets soaked in sugar syrup. Light, bright and irresistible.",
+      "price": "$2.00",
+      "description": "",
       "image": ""
     }
-  ],
-  "_comments": {
-    "Mains": "Populate this category with main dishes as the menu expands.",
-    "Combos": "Populate this category with combo meals — e.g. skewer + rice + drink deals.",
-    "Beverages": "Populate this category with drinks — soft drinks, juices, water."
-  }
+  ]
 }

@@ -43,7 +43,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Build category sections
   menuContent.innerHTML = '';
   categories.forEach((cat, i) => {
-    const catItems = items.filter(item => item.category === cat);
+    const catItems = cat === 'Featured'
+      ? (data.featured || []).map(name => items.find(item => item.name === name)).filter(Boolean)
+      : items.filter(item => item.category === cat);
     const section = document.createElement('section');
     section.className = 'menu-category section' + (i === 0 ? ' active' : '');
     section.id = 'cat-' + slugify(cat);
@@ -64,6 +66,24 @@ document.addEventListener('DOMContentLoaded', async () => {
       </div>
     `;
     menuContent.appendChild(section);
+  });
+
+  // Make long descriptions expandable without changing or dropping source text.
+  menuContent.querySelectorAll('.dish-card-desc').forEach(description => {
+    const button = description.nextElementSibling;
+    if (!button?.classList.contains('dish-card-more')) return;
+    if (description.scrollHeight <= description.clientHeight + 1) {
+      button.hidden = true;
+      description.classList.remove('is-collapsed');
+      return;
+    }
+    button.addEventListener('click', () => {
+      const expanded = button.getAttribute('aria-expanded') === 'true';
+      button.setAttribute('aria-expanded', String(!expanded));
+      button.textContent = expanded ? 'Read more' : 'Show less';
+      description.classList.toggle('is-expanded', !expanded);
+      description.classList.toggle('is-collapsed', expanded);
+    });
   });
 
   // Attach image error handlers
@@ -92,7 +112,8 @@ function renderCard(item) {
       <div class="dish-card-img">${imgMarkup}</div>
       <div class="dish-card-body">
         <p class="dish-card-name">${escapeHtml(item.name)}</p>
-        <p class="dish-card-desc">${escapeHtml(item.description)}</p>
+        <p class="dish-card-desc is-collapsed">${escapeHtml(item.description)}</p>
+        <button class="dish-card-more" type="button" aria-expanded="false">Read more</button>
         <p class="dish-card-price">${escapeHtml(item.price)}</p>
       </div>
     </article>
