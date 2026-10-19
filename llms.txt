@@ -43,7 +43,7 @@ The restaurant specialises in authentic Afghan cuisine. Signature dishes include
 
 ## Website Pages
 
-- Home: https://afghankebabhouse.com.au/
-- Menu: https://afghankebabhouse.com.au/menu.html
-- About: https://afghankebabhouse.com.au/about.html
-- Find Us / Contact: https://afghankebabhouse.com.au/contact.html
+- Home: https://afghan-cuisine-charcoal-kebab-house-prospect-rd.pages.dev/
+- Menu: https://afghan-cuisine-charcoal-kebab-house-prospect-rd.pages.dev/menu.html
+- About: https://afghan-cuisine-charcoal-kebab-house-prospect-rd.pages.dev/about.html
+- Find Us / Contact: https://afghan-cuisine-charcoal-kebab-house-prospect-rd.pages.dev/contact.html

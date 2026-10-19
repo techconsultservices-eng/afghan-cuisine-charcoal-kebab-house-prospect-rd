@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://afghankebabhouse.com.au/sitemap.xml
+Sitemap: https://afghan-cuisine-charcoal-kebab-house-prospect-rd.pages.dev/sitemap.xml

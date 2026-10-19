@@ -42,6 +42,28 @@ class RestaurantConversionExperienceTests(unittest.TestCase):
         self.assertIn(".heritage-motif", css)
         self.assertIn("--sand:", css)
 
+    def test_pages_dev_is_canonical_in_site_metadata_and_search_files(self):
+        origin = "https://afghan-cuisine-charcoal-kebab-house-prospect-rd.pages.dev"
+        legacy_host = "afghankebabhouse.com.au"
+        for page in ("index.html", "menu.html", "about.html", "contact.html"):
+            with self.subTest(page=page):
+                html = (ROOT / page).read_text(encoding="utf-8")
+                self.assertIn(origin, html)
+                self.assertNotIn(legacy_host, html)
+
+        sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
+        for path in ("", "menu.html", "about.html", "contact.html"):
+            self.assertIn(f"<loc>{origin}/{path}</loc>", sitemap)
+        self.assertNotIn(legacy_host, sitemap)
+
+        robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
+        self.assertIn(f"Sitemap: {origin}/sitemap.xml", robots)
+        self.assertNotIn(legacy_host, robots)
+
+        llms = (ROOT / "llms.txt").read_text(encoding="utf-8")
+        self.assertIn(f"- Home: {origin}/", llms)
+        self.assertNotIn(legacy_host, llms)
+
 
 if __name__ == "__main__":
     unittest.main()
