@@ -64,6 +64,16 @@ class RestaurantConversionExperienceTests(unittest.TestCase):
         self.assertIn(f"- Home: {origin}/", llms)
         self.assertNotIn(legacy_host, llms)
 
+    def test_google_analytics_tag_is_installed_once_on_every_page(self):
+        measurement_id = "G-53LRJNML03"
+        script_url = f"https://www.googletagmanager.com/gtag/js?id={measurement_id}"
+        for page in ("index.html", "menu.html", "about.html", "contact.html"):
+            with self.subTest(page=page):
+                html = (ROOT / page).read_text(encoding="utf-8")
+                head = html.split("</head>", 1)[0]
+                self.assertEqual(head.count(script_url), 1)
+                self.assertEqual(head.count(f"gtag('config', '{measurement_id}')"), 1)
+
 
 if __name__ == "__main__":
     unittest.main()
