@@ -4,7 +4,7 @@
 
 Afghan Cuisine and Charcoal Kebab House is a restaurant located at 327 Prospect Road, Blair Athol, South Australia 5084. It serves traditional Afghan food cooked over real hardwood charcoal.
 
-The restaurant is halal certified and welcomes dine-in customers and takeaway orders. It is also available for delivery and pickup via Uber Eats.
+The restaurant is halal certified and welcomes dine-in customers and takeaway orders. Delivery is available through Uber Eats; pickup orders are placed by phone.
 
 ## Cuisine
 
@@ -12,9 +12,9 @@ The restaurant specialises in authentic Afghan cuisine. Signature dishes include
 
 - Charcoal-grilled kebabs: chicken, lamb, lamb mince and mixed skewer platters
 - Kabuli Pulao: Afghanistan's national dish of slow-cooked basmati rice with lamb, caramelised carrots and raisins
-- Manto: handmade Afghan dumplings filled with spiced minced beef, served with yoghurt and tomato sauce
+- Manto: steamed Afghan dumplings filled with savory onion and tender lamb mince, topped with garlicky yogurt sauce and served with daal
 - Biryani: aromatic rice layered with slow-cooked meat and Afghan spices
-- BBQ Chicken: whole chicken grilled over charcoal
+- BBQ Chicken: half chicken grilled over charcoal
 - Freshly baked Afghan bread
 - Traditional sides including Dal (lentil curry) and Chole (chickpea curry)
 - Desserts including Baklava and Jalebi
@@ -23,20 +23,16 @@ The restaurant specialises in authentic Afghan cuisine. Signature dishes include
 
 - Address: 327 Prospect Rd, Blair Athol SA 5084, Australia
 - Phone: (08) 8262 6574
+- Pickup orders: by phone
 - Hours: Monday to Sunday, 11:00am to 10:00pm (7 days a week)
 - Uber Eats: https://www.ubereats.com/au/store/afghan-cuisine-and-charcoal-kebab-house/RWX0s6DjTACkVv3nphXjUA
-
-## Ratings and Reviews
-
-- Rated 4.6 stars on Uber Eats
-- Over 1,500 customer reviews on Uber Eats
 
 ## Key Facts
 
 - Cuisine type: Afghan
 - Price range: Moderate ($$)
 - Dietary: Halal certified
-- Service: Dine in, takeaway, Uber Eats delivery
+- Service: Dine in, takeaway, Uber Eats delivery, phone pickup
 - Parking: Available on site
 - Location: Prospect Road, Blair Athol, Adelaide northern suburbs, South Australia
 - Coordinates: -34.8656431, 138.5927746
@@ -47,3 +43,4 @@ The restaurant specialises in authentic Afghan cuisine. Signature dishes include
 - Menu: https://afghan-cuisine-charcoal-kebab-house-prospect-rd.pages.dev/menu.html
 - About: https://afghan-cuisine-charcoal-kebab-house-prospect-rd.pages.dev/about.html
 - Find Us / Contact: https://afghan-cuisine-charcoal-kebab-house-prospect-rd.pages.dev/contact.html
+- Sitemap: https://afghan-cuisine-charcoal-kebab-house-prospect-rd.pages.dev/sitemap.xml

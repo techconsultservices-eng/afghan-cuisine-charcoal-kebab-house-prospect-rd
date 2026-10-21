@@ -7,7 +7,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (!tabBar || !menuContent) return;
 
-  menuContent.innerHTML = '<div class="menu-loading">Loading menu…</div>';
+  const hasStaticMenu = menuContent.querySelector('.menu-category') !== null;
+  if (!hasStaticMenu) {
+    menuContent.innerHTML = '<div class="menu-loading">Loading menu…</div>';
+  }
 
   let data;
   try {
@@ -15,7 +18,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (!res.ok) throw new Error('Failed to load menu');
     data = await res.json();
   } catch (err) {
-    menuContent.innerHTML = '<div class="menu-loading">Unable to load menu. Please try again shortly.</div>';
+    if (!hasStaticMenu) {
+      menuContent.innerHTML = '<div class="menu-loading">Unable to load menu. Please try again shortly.</div>';
+    }
     console.error(err);
     return;
   }
